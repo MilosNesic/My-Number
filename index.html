@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moj broj</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+    <div id="wrapper">
+        <div id="wanted">
+            <div id="generate">
+                <button id="generateButton">START</button>
+            </div>
+            <div class="wantedNumber">
+                <p>WANTED NUMBER IS<p>
+                <div id="generatedNumber"></div>
+            </div>
+        </div>
+        <div id="givenNumbers">
+            <button id="number1" class="smallButton"></button>
+            <button id="number2" class="smallButton"></button>
+            <button id="number3" class="smallButton"></button>
+            <button id="number4" class="smallButton"></button>
+            <button id="number5" class="bigButton"></button>
+            <button id="number6" class="bigButton"></button>
+        </div>
+        <div id="operations">
+            <button id="add" class="operation">+</button>
+            <button id="subtract" class="operation">-</button>
+            <button id="openbracket" class="operation">(</button>
+            <button id="multiply" class="operation">*</button>
+            <button id="devide" class="operation">/</button>
+            <button id="closebracket" class="operation">)</button>
+        </div>
+        <div id="yourSolution">Solution</div>
+        <div id="check">
+            <button id="checkButton">CHECK</button>
+            <button id="deleteButton">DELETE</button>
+        </div>
+        <div id="timer">
+            <div id="graphicTimer">
+                <div id="fillGraphicTimer"></div>
+            </div>
+            <div id="numberTimer">60</div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
